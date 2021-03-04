@@ -10,7 +10,7 @@ namespace API.Extensions
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SkiNet API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SneakerShop API", Version = "v1" });
             });
 
             return services;
