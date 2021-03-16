@@ -1,6 +1,6 @@
 <header>
     <span *ngIf="totalCount && totalCount > 0">
-        Showing 
+        Hiển thị 
         <strong>
             {{(pageNumber - 1) * pageSize + 1}} -
             {{pageNumber * pageSize
@@ -8,8 +8,8 @@
                 ? totalCount 
                 : pageNumber * pageSize
             }}
-        </strong> of <strong>{{this.totalCount}}</strong> Results</span>
+        </strong> trong tổng <strong>{{this.totalCount}}</strong> kết quả</span>
     <span *ngIf="totalCount === 0">
-        There are <strong>0</strong> results for this filter
+        <strong>Không</strong> có kết quả tìm kiếm nào phù hợp 
     </span>
 </header>

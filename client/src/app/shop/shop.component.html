@@ -7,24 +7,24 @@
     <div class="row">
         <section class="col-3">
             <ng-container *ngIf="productTypes && brands">
-                <h5 class="text-warning ml-3 my-4">Sort</h5>
-                <select class="custom-select" (change)="onSortSelected($event.target.value)">
+                <h5 class="text-secondary ml-3 mt-4 mb-2 alternate-font">Sắp xếp</h5>
+                <select class="custom-select" style="cursor: pointer;" (change)="onSortSelected($event.target.value)">
                     <option *ngFor="let sort of sortOptions" [value]="sort.value">
                         {{sort.name}}
                     </option>
                 </select>
 
-                <h5 class="text-warning ml-3 my-4">Brands</h5>
+                <h5 class="text-secondary ml-3 mt-4 mb-2 alternate-font">Thương hiệu</h5>
                 <ul class="list-group my-3">
-                    <li class="list-group-item" *ngFor="let brand of brands"
+                    <li class="list-group-item" style="cursor: pointer;" *ngFor="let brand of brands"
                         [class.active]="brand.id === this.shopParams.brandId" [value]="brand.id"
                         (click)="onBrandSelected(brand.id)">
                         {{brand.name}}
                     </li>
                 </ul>
-                <h5 class="text-warning ml-3 my-4">Types</h5>
+                <h5 class="text-secondary ml-3 mt-4 mb-2 alternate-font">Loại</h5>
                 <ul class="list-group my-3">
-                    <li class="list-group-item" *ngFor="let type of productTypes"
+                    <li class="list-group-item" style="cursor: pointer;" *ngFor="let type of productTypes"
                         [class.active]="type.id === this.shopParams.typeId" [value]="type.id"
                         (click)="onTypeSelected(type.id)">
                         {{type.name}}
@@ -41,9 +41,9 @@
 
                 <div class="form-inline" *ngIf="products">
                     <input (keyup.enter)="onSearch()" class="form-control mr-2" #search style="width: 300px"
-                        placeholder="Search" type="text" />
-                    <button (click)="onSearch()" class="btn btn-outline-primary my-2">Search</button>
-                    <button (click)="onReset()" class="btn btn-outline-success ml-2 my-2">Reset</button>
+                        placeholder="Tìm kiếm" type="text" />
+                    <button (click)="onSearch()" class="btn btn-outline-primary my-2">Tìm kiếm</button>
+                    <button (click)="onReset()" class="btn btn-danger ml-2 my-2">Đặt lại</button>
                 </div>
             </div>
 

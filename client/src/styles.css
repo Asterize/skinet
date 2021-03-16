@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+* {
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Merriweather Sans', sans-serif;
+    /* font-family: 'Charm', cursive; */
+    /* font-family: 'Sriracha', cursive; */
+}
+
+.alternate-font {
+    font-family: 'Sriracha', cursive;
+ }
+
 .xng-breadcrumb-root {
     padding: 8px 16px;
     display: inline;
@@ -8,7 +19,13 @@
 
 label.xng-breadcrumb-trail {
     margin-bottom: 0;
-    color: orange;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.xng-breadcrumb-item a {
+    color: ghostwhite;
 }
 
 .xng-breadcrumb-seperator {

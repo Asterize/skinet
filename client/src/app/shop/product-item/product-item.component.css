@@ -3,8 +3,8 @@
 } */
 
 .btn {
-    width: 30%;
-    height: 40px;
+    width: 60%;
+    height: 50px;
 }
 
 .image :hover {
@@ -33,9 +33,9 @@
 }
 
 .hover-overlay button:first-of-type {
-    transform: translateX(-20px);
+    transform: translateY(-30px);
 }
 
 .hover-overlay button:last-of-type {
-    transform: translateX(20px);
+    transform: translateY(30px);
 }

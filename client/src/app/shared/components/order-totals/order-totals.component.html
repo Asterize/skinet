@@ -1,19 +1,19 @@
-<div class="bg-light px-4 py-3 text-uppercase font-weight-bold">
-    Order Summary
+<div class="bg-primary px-4 py-3 text-uppercase font-weight-bold text-white">
+    Tóm tắt Đơn đặt hàng
 </div>
 <div class="p-4">
-    <p class="font-italic mb-4">Shipping cost will be added depending on choices made during checkout</p>
+    <p class="font-italic mb-4">Giá Shipping sẽ được cộng vào tổng giá dựa vào tùy chọn của bạn</p>
     <ul class="list-unstyled mb-4" *ngIf="(basketTotal$ | async) as totals">
         <li class="d-flex justify-content-between py-3 border-bottom">
-            <strong class="text-muted">Order subtotal</strong>
+            <strong class="text-muted">Tổng giá đơn đặt hàng</strong>
             <strong>{{totals.subtotal}}</strong>
         </li>
         <li class="d-flex justify-content-between py-3 border-bottom">
-            <strong class="text-muted">Shipping and Handling</strong>
+            <strong class="text-muted">Phí giao hàng</strong>
             <strong>{{totals.shipping}}</strong>
         </li>
         <li class="d-flex justify-content-between py-3 border-bottom">
-            <strong class="text-muted">Total</strong>
+            <strong class="text-muted">Tổng cộng</strong>
             <strong>{{totals.total}}</strong>
         </li>
     </ul>

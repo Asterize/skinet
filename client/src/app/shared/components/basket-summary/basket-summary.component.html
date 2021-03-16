@@ -2,21 +2,21 @@
     <div class="table-responsive">
         <table class="table">
             <thead>
-                <tr>
-                    <th class="border-0 " [class.bg-light]="isBasket" scope="col">
-                        <div class="py-2 pl-2 text-uppercase">Product</div>
+                <tr class="table-primary">
+                    <th class="border-0 " scope="col">
+                        <div class="py-2 pl-2 text-uppercase">Sản phẩm</div>
                     </th>
-                    <th class="border-0 " [class.bg-light]="isBasket" scope="col">
-                        <div class="py-2 text-center text-uppercase">Price</div>
+                    <th class="border-0 " scope="col">
+                        <div class="py-2 text-center text-uppercase">Giá</div>
                     </th>
-                    <th class="border-0 " [class.bg-light]="isBasket" scope="col">
-                        <div class="py-2 text-center text-uppercase">Quantity</div>
+                    <th class="border-0 " scope="col">
+                        <div class="py-2 text-center text-uppercase">Số lượng</div>
                     </th>
-                    <th class="border-0 " [class.bg-light]="isBasket" scope="col">
-                        <div class="py-2 text-center text-uppercase">Total</div>
+                    <th class="border-0 " scope="col">
+                        <div class="py-2 text-center text-uppercase">Tổng giá</div>
                     </th>
-                    <th *ngIf="isBasket" class="border-0 bg-light" scope="col">
-                        <div class="py-2 text-center text-uppercase">Remove</div>
+                    <th *ngIf="isBasket" class="border-0" scope="col">
+                        <div class="py-2 text-center text-uppercase">Loại trừ</div>
                     </th>
                 </tr>
             </thead>
@@ -27,11 +27,11 @@
                             <img src="{{item.pictureUrl}}" alt="{{item.productName}}" class="img-fluid"
                                 style="max-height: 50px;">
                             <div class="ml-3 d-inline-block align-middle">
-                                <h5 class="mb-0">
+                                <h5 class="mb-0 alternate-font">
                                     <a routerLink='/shop/{{item.id}}' class="text-dark">{{item.productName}}</a>
                                 </h5>
                                 <span class="text-muted font-weight-normal font-italic d-block">
-                                    Type: {{item.type}}
+                                    Loại: {{item.type}}
                                 </span>
                             </div>
                         </div>

@@ -1,26 +1,26 @@
 <div class="mt-4" [formGroup]="checkoutForm">
     <div class="d-flex justify-content-between align-items-center">
-        <h4>Shipping address</h4>
+        <h4 class="alternate-font">Điạ chỉ giao hàng</h4>
         <button (click)="saveUserAddress()" [disabled]="!checkoutForm.get('addressForm').valid || 
                 !checkoutForm.get('addressForm').dirty" class="btn btn-outline-success mb-3">
-            Save as default address
+            Lưu làm địa chỉ mặc định
         </button>
     </div>
     <div class="row" formGroupName="addressForm">
         <div class="form-group col-6">
-            <app-text-input [label]="'Name'" formControlName="name"></app-text-input>
+            <app-text-input [label]="'Tên'" formControlName="name"></app-text-input>
         </div>
         <div class="form-group col-6">
-            <app-text-input [label]="'Street'" formControlName="street"></app-text-input>
+            <app-text-input [label]="'Đường'" formControlName="street"></app-text-input>
         </div>
         <div class="form-group col-6">
-            <app-text-input [label]="'Ward'" formControlName="ward"></app-text-input>
+            <app-text-input [label]="'Phường'" formControlName="ward"></app-text-input>
         </div>
         <div class="form-group col-6">
-            <app-text-input [label]="'District'" formControlName="district"></app-text-input>
+            <app-text-input [label]="'Quận'" formControlName="district"></app-text-input>
         </div>
         <div class="form-group col-6">
-            <app-text-input [label]="'City'" formControlName="city"></app-text-input>
+            <app-text-input [label]="'Thành phố/Tỉnh'" formControlName="city"></app-text-input>
         </div>
         <div class="form-group col-6">
             <app-text-input [label]="'Zipcode'" formControlName="zipcode"></app-text-input>
@@ -30,9 +30,9 @@
 
 <div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5">
     <button class="btn btn-outline-primary" routerLink="/basket">
-        <i class="fa fa-angle-left"></i> Back to Basket
+        <i class="fa fa-angle-left"></i> Quay về Giỏ hàng
     </button>
     <button class="btn btn-primary" cdkStepperNext>
-        Go to Delivery <i class="fa fa-angle-right"></i>
+        Tiếp tục <i class="fa fa-angle-right"></i>
     </button>
 </div>
