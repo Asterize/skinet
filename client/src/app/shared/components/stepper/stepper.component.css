@@ -19,3 +19,7 @@ button.nav-link :active {
 button.nav-link.active:focus {
     outline: none;
 }
+
+/* button.nav-link.active:disabled {
+    color: #333;
+} */

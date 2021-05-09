@@ -1,6 +1,6 @@
 <div class="mt-4" [formGroup]="checkoutForm">
     <div class="d-flex justify-content-between align-items-center">
-        <h4 class="alternate-font">Điạ chỉ giao hàng</h4>
+        <h4 class="alternate-font">Địa chỉ giao hàng</h4>
         <button (click)="saveUserAddress()" [disabled]="!checkoutForm.get('addressForm').valid || 
                 !checkoutForm.get('addressForm').dirty" class="btn btn-outline-success mb-3">
             Lưu làm địa chỉ mặc định
@@ -32,7 +32,7 @@
     <button class="btn btn-outline-primary" routerLink="/basket">
         <i class="fa fa-angle-left"></i> Quay về Giỏ hàng
     </button>
-    <button class="btn btn-primary" cdkStepperNext>
+    <button [disabled]="checkoutForm.get('addressForm').invalid" class="btn btn-primary" cdkStepperNext>
         Tiếp tục <i class="fa fa-angle-right"></i>
     </button>
 </div>
