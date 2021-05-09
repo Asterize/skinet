@@ -1,146 +1,443 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
-    "ProductTypeId": 1,
+    "Name": "Nike Air Force 1 All White",
+    "Description": "Nike Air Force 1 All White đôi giày không bao giờ lỗi mốt. Dễ đeo dễ mix đồ đế cao 2-3cm nên đeo vào nhìn cao hơn hẳn. Ai cũng cần có một đôi giày trắng trong tủ nên hãy nhấc điện thoại và alo em ship trong một nốt nhạc. Inbox em tư vẫn size nhé ",
+    "Price": 1650000,
+    "PictureUrl": "images/products/nike1.png",
+    "ProductTypeId": 3,
     "ProductBrandId": 1
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
+    "Name": "Nike Jordan 1 Low Black Guava Ice 2021",
+    "Description": "Sự đa dạng về kiểu dáng và màu sắc cho nên các tín đồ của sneaker có thể thảo sức lựa chọn theo sở thích và phong cách. Các mẫu giày Jordan 1 chính hãng được sản xuất với số lượng không nhiều cho nên khi có được “siêu phẩm” này chắc chắn bạn sẽ trở nên nổi bật và làm nhiều người phải ganh tỵ đấy. Với thiết kế đế ngoài bằng cao su của Jordan 1 có các rãnh uốn sâu di chuyển sải chân bằng bàn chân của bạn. Phần trên bằng da bền ôm sát cổ chân vừa giúp bảo vệ khỏi những va chạm bên ngoài, đồng thời tạo cảm giác chắn chắn khi di chuyển, mang đến hiệu quả cao cho các hoạt động thể thao của mình.",
+    "Price": 7450000,
+    "PictureUrl": "images/products/nike2.png",
+    "ProductTypeId": 3,
     "ProductBrandId": 1
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "Name": "Nike Air Jordan 1 Mid SE Peach Mocha DH0210-100",
+    "Description": "Sự đa dạng về kiểu dáng và màu sắc cho nên các tín đồ của sneaker có thể thảo sức lựa chọn theo sở thích và phong cách. Các mẫu giày Jordan 1 chính hãng được sản xuất với số lượng không nhiều cho nên khi có được “siêu phẩm” này chắc chắn bạn sẽ trở nên nổi bật và làm nhiều người phải ganh tỵ đấy. Với thiết kế đế ngoài bằng cao su của Jordan 1 có các rãnh uốn sâu di chuyển sải chân bằng bàn chân của bạn. Phần trên bằng da bền ôm sát cổ chân vừa giúp bảo vệ khỏi những va chạm bên ngoài, đồng thời tạo cảm giác chắn chắn khi di chuyển, mang đến hiệu quả cao cho các hoạt động thể thao của mình.",
+    "Price": 8900000,
+    "PictureUrl": "images/products/nike3.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "Name": "Nike Zoom Winflo 7 Black Anthracite CJ0302-005",
+    "Description": "Nike Air Zoom Winflo 7 giúp bạn tiếp tục chạy với thiết kế lưới được cập nhật và tăng bọt. Được thiết kế với tính năng chạy hàng ngày, cảm giác êm ái của nó giúp bạn tập trung vào con đường phía trước.",
+    "Price": 3000000,
+    "PictureUrl": "images/products/nike4.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
+    "Name": "Nike 270 React Black White",
+    "Description": "Nike 270 React đôi giày không bao giờ lỗi mốt. Dễ đeo dễ mix đồ đế cao 2-3cm nên đeo vào nhìn cao hơn hẳn. Ai cũng cần có một đôi giày trắng trong tủ nên hãy nhấc điện thoại và alo em ship trong một nốt nhạc. Inbox em tư vẫn size nhé. ",
+    "Price": 2490000,
+    "PictureUrl": "images/products/nike5.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Jordan 1 Mid Signal Blue",
+    "Description": "Jordan 1 Mid Signal Blue đôi giày không bao giờ lỗi mốt. Dễ đeo dễ mix đồ đế cao 2-3cm nên đeo vào nhìn cao hơn hẳn. Ai cũng cần có một đôi giày trắng trong tủ nên hãy nhấc điện thoại và alo em ship trong một nốt nhạc. Inbox em tư vẫn size nhé. ",
+    "Price": 5390000,
+    "PictureUrl": "images/products/nike6.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Air Jordan 1 Low Patent Multi Low",
+    "Description": "Air Jordan 1 Low Patent Multi Low đôi giày không bao giờ lỗi mốt. Dễ đeo dễ mix đồ đế cao 2-3cm nên đeo vào nhìn cao hơn hẳn. Ai cũng cần có một đôi giày trắng trong tủ nên hãy nhấc điện thoại và alo em ship trong một nốt nhạc. Inbox em tư vẫn size nhé.",
+    "Price": 3590000,
+    "PictureUrl": "images/products/nike7.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Nike Air Force 1 Shadow Phonton Dust Barely Volt",
+    "Description": "Nike Air Force 1 Shadow Phonton Dust Barely Volt đôi giày không bao giờ lỗi mốt. Dễ đeo dễ mix đồ đế cao 2-3cm nên đeo vào nhìn cao hơn hẳn. Ai cũng cần có một đôi giày trắng trong tủ nên hãy nhấc điện thoại và alo em ship trong một nốt nhạc. Inbox em tư vẫn size nhé.",
+    "Price": 2990000,
+    "PictureUrl": "images/products/nike8.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Nike Blazer Mid White",
+    "Description": "Nike Blazer Mid đôi giày không bao giờ lỗi mốt. Dễ đeo dễ mix đồ đế cao 2-3cm nên đeo vào nhìn cao hơn hẳn. Ai cũng cần có một đôi giày trắng trong tủ nên hãy nhấc điện thoại và alo em ship trong một nốt nhạc. Inbox em tư vẫn size nhé.",
+    "Price": 2590000,
+    "PictureUrl": "images/products/nike9.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Jordan 1 Mid Carbon Fiber ALL-STAR",
+    "Description": "Jordan 1 Mid Carbon Fiber ALL-STAR đôi giày không bao giờ lỗi mốt. Dễ đeo dễ mix đồ đế cao 2-3cm nên đeo vào nhìn cao hơn hẳn. Ai cũng cần có một đôi giày trắng trong tủ nên hãy nhấc điện thoại và alo em ship trong một nốt nhạc. Inbox em tư vẫn size nhé.",
+    "Price": 6290000,
+    "PictureUrl": "images/products/nike10.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Vans Old Skool Classic Black/White",
+    "Description": "VANS OFF THE WALL là thương hiệu sản xuất giày và phụ kiện cho các môn thể thao như trượt ván, xe đạp BMX, lướt sóng, trượt tuyết và mô tô đua, hoạt động mạnh mẽ trong lĩnh vực thể thao mạo hiểm và lĩnh vực Custom sáng tạo.",
+    "Price": 1499000,
+    "PictureUrl": "images/products/vans1.png",
+    "ProductTypeId": 3,
     "ProductBrandId": 4
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
-    "ProductTypeId": 1,
+    "Name": "Vans Checkerboard Slip-on Classic Black/White",
+    "Description": "VANS OFF THE WALL là thương hiệu sản xuất giày và phụ kiện cho các môn thể thao như trượt ván, xe đạp BMX, lướt sóng, trượt tuyết và mô tô đua, hoạt động mạnh mẽ trong lĩnh vực thể thao mạo hiểm và lĩnh vực Custom sáng tạo.",
+    "Price": 1377000,
+    "PictureUrl": "images/products/vans2.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Vans Canvas Old Skool Classic True White",
+    "Description": "VANS OFF THE WALL là thương hiệu sản xuất giày và phụ kiện cho các môn thể thao như trượt ván, xe đạp BMX, lướt sóng, trượt tuyết và mô tô đua, hoạt động mạnh mẽ trong lĩnh vực thể thao mạo hiểm và lĩnh vực Custom sáng tạo.",
+    "Price": 1662000,
+    "PictureUrl": "images/products/vans3.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Vans Old Skool Checkerboard Black/White",
+    "Description": "VANS OFF THE WALL là thương hiệu sản xuất giày và phụ kiện cho các môn thể thao như trượt ván, xe đạp BMX, lướt sóng, trượt tuyết và mô tô đua, hoạt động mạnh mẽ trong lĩnh vực thể thao mạo hiểm và lĩnh vực Custom sáng tạo.",
+    "Price": 1662000,
+    "PictureUrl": "images/products/vans4.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  }, {
+    "Name": "Vans Classic Old Skool Black/Black",
+    "Description": "VANS OFF THE WALL là thương hiệu sản xuất giày và phụ kiện cho các môn thể thao như trượt ván, xe đạp BMX, lướt sóng, trượt tuyết và mô tô đua, hoạt động mạnh mẽ trong lĩnh vực thể thao mạo hiểm và lĩnh vực Custom sáng tạo.",
+    "Price": 1662000,
+    "PictureUrl": "images/products/vans5.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Vans Classic SK8-Hi Black/White",
+    "Description": "VANS OFF THE WALL là thương hiệu sản xuất giày và phụ kiện cho các môn thể thao như trượt ván, xe đạp BMX, lướt sóng, trượt tuyết và mô tô đua, hoạt động mạnh mẽ trong lĩnh vực thể thao mạo hiểm và lĩnh vực Custom sáng tạo.",
+    "Price": 1757000,
+    "PictureUrl": "images/products/vans6.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Vans Classic Authentic Black/White",
+    "Description": "VANS OFF THE WALL là thương hiệu sản xuất giày và phụ kiện cho các môn thể thao như trượt ván, xe đạp BMX, lướt sóng, trượt tuyết và mô tô đua, hoạt động mạnh mẽ trong lĩnh vực thể thao mạo hiểm và lĩnh vực Custom sáng tạo.",
+    "Price": 1377000,
+    "PictureUrl": "images/products/vans7.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Vans Classic Old Skool Navy/White",
+    "Description": "VANS OFF THE WALL là thương hiệu sản xuất giày và phụ kiện cho các môn thể thao như trượt ván, xe đạp BMX, lướt sóng, trượt tuyết và mô tô đua, hoạt động mạnh mẽ trong lĩnh vực thể thao mạo hiểm và lĩnh vực Custom sáng tạo.",
+    "Price": 1662000,
+    "PictureUrl": "images/products/vans8.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Biti's Hunter Core 2K21 Classic Blue DSMH05000XDG",
+    "Description": "Giày Thể Thao Biti's Hunter với công nghệ LiteFoam độc quyền từ Biti's Hunter mang đến những cải tiến vượt bậc Nhẹ như bay, chất liệu quen thuộc cải tiến với thiết kế cổ vớ mang đến vẻ ngoài thời trang, năng động, êm ái và tăng chiều cao đế đến 4.3cm mang đến cảm giác mới mẻ.",
+    "Price": 699000,
+    "PictureUrl": "images/products/bitis1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Biti's Hunter Street 2K21 Vintage Black DSMH04000DEN",
+    "Description": "Giày Thể Thao Biti's Hunter với công nghệ LiteFoam độc quyền từ Biti's Hunter mang đến những cải tiến vượt bậc Nhẹ như bay, chất liệu quen thuộc cải tiến với thiết kế cổ vớ mang đến vẻ ngoài thời trang, năng động, êm ái và tăng chiều cao đế đến 4.3cm mang đến cảm giác mới mẻ.",
+    "Price": 599000,
+    "PictureUrl": "images/products/bitis2.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Biti's Hunter Core 2K21 Classic Pink DSWH05000DEN",
+    "Description": "Giày Thể Thao Biti's Hunter với công nghệ LiteFoam độc quyền từ Biti's Hunter mang đến những cải tiến vượt bậc Nhẹ như bay, chất liệu quen thuộc cải tiến với thiết kế cổ vớ mang đến vẻ ngoài thời trang, năng động, êm ái và tăng chiều cao đế đến 4.3cm mang đến cảm giác mới mẻ.",
+    "Price": 699000,
+    "PictureUrl": "images/products/bitis3.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Biti's Hunter Street 2K21 DSMH04000XDL/DSWH04000XDL",
+    "Description": "Giày Thể Thao Biti's Hunter với công nghệ LiteFoam độc quyền từ Biti's Hunter mang đến những cải tiến vượt bậc Nhẹ như bay, chất liệu quen thuộc cải tiến với thiết kế cổ vớ mang đến vẻ ngoài thời trang, năng động, êm ái và tăng chiều cao đế đến 4.3cm mang đến cảm giác mới mẻ.",
+    "Price": 599000,
+    "PictureUrl": "images/products/bitis4.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": " Biti's Hunter Core Americano 2k20 DSWH03200DEN/DSMH03200DEN",
+    "Description": "Giày Thể Thao Biti's Hunter với công nghệ LiteFoam độc quyền từ Biti's Hunter mang đến những cải tiến vượt bậc Nhẹ như bay, chất liệu quen thuộc cải tiến với thiết kế cổ vớ mang đến vẻ ngoài thời trang, năng động, êm ái và tăng chiều cao đế đến 4.3cm mang đến cảm giác mới mẻ.",
+    "Price": 599000,
+    "PictureUrl": "images/products/bitis5.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Biti's Hunter X 2K21 Washed Grey DSMH05100XAM",
+    "Description": "Giày Thể Thao Biti's Hunter với công nghệ LiteFoam độc quyền từ Biti's Hunter mang đến những cải tiến vượt bậc Nhẹ như bay, chất liệu quen thuộc cải tiến với thiết kế cổ vớ mang đến vẻ ngoài thời trang, năng động, êm ái và tăng chiều cao đế đến 4.3cm mang đến cảm giác mới mẻ.",
+    "Price": 999000,
+    "PictureUrl": "images/products/bitis6.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Biti's Hunter X 2k19 Jet Navy DSMH02200XNH/DSWH02200XNH",
+    "Description": "Giày Thể Thao Biti's Hunter với công nghệ LiteFoam độc quyền từ Biti's Hunter mang đến những cải tiến vượt bậc Nhẹ như bay, chất liệu quen thuộc cải tiến với thiết kế cổ vớ mang đến vẻ ngoài thời trang, năng động, êm ái và tăng chiều cao đế đến 4.3cm mang đến cảm giác mới mẻ.",
+    "Price": 799000,
+    "PictureUrl": "images/products/bitis7.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Biti's Hunter X - Summer 2k19 BKL DSMH01000TRG",
+    "Description": "Giày Thể Thao Biti's Hunter với công nghệ LiteFoam độc quyền từ Biti's Hunter mang đến những cải tiến vượt bậc Nhẹ như bay, chất liệu quen thuộc cải tiến với thiết kế cổ vớ mang đến vẻ ngoài thời trang, năng động, êm ái và tăng chiều cao đế đến 4.3cm mang đến cảm giác mới mẻ.",
+    "Price": 799000,
+    "PictureUrl": "images/products/bitis8.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Adidas RUNNING Lite Racer 2.0 Nam Màu đen EG3283",
+    "Description": "Phong cách thể thao và đa năng. Hãy xỏ chân vào đôi giày chạy này để vượt qua mọi hoạt động trong ngày. Thân giày bằng vải lưới thoáng khí cho cảm giác thoải mái dài lâu và lớp đệm đế giữa mềm mại nâng đỡ từng bước chân. Họa tiết 3 Sọc không đường may thể hiện niềm tự hào adidas.",
+    "Price": 1400000,
+    "PictureUrl": "images/products/adidas1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Adidas ORIGINALSSuperstar Nam Màu trắng FY6620",
+    "Description": "Phong cách thể thao và đa năng. Hãy xỏ chân vào đôi giày chạy này để vượt qua mọi hoạt động trong ngày. Thân giày bằng vải lưới thoáng khí cho cảm giác thoải mái dài lâu và lớp đệm đế giữa mềm mại nâng đỡ từng bước chân. Họa tiết 3 Sọc không đường may thể hiện niềm tự hào adidas.",
+    "Price": 2400000,
+    "PictureUrl": "images/products/adidas2.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Adidas TENNIS Advantage Nam Màu trắng FV8492",
+    "Description": "Phong cách thể thao và đa năng. Hãy xỏ chân vào đôi giày chạy này để vượt qua mọi hoạt động trong ngày. Thân giày bằng vải lưới thoáng khí cho cảm giác thoải mái dài lâu và lớp đệm đế giữa mềm mại nâng đỡ từng bước chân. Họa tiết 3 Sọc không đường may thể hiện niềm tự hào adidas.",
+    "Price": 1700000,
+    "PictureUrl": "images/products/adidas3.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Adidas RUNNING Alphatorsion Boost Nam EG5085",
+    "Description": "Phong cách thể thao và đa năng. Hãy xỏ chân vào đôi giày chạy này để vượt qua mọi hoạt động trong ngày. Thân giày bằng vải lưới thoáng khí cho cảm giác thoải mái dài lâu và lớp đệm đế giữa mềm mại nâng đỡ từng bước chân. Họa tiết 3 Sọc không đường may thể hiện niềm tự hào adidas.",
+    "Price": 3500000,
+    "PictureUrl": "images/products/adidas4.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Adidas RUNNING Ultraboost SUMMER.RDY Unisex Màu đen EG0748",
+    "Description": "Phong cách thể thao và đa năng. Hãy xỏ chân vào đôi giày chạy này để vượt qua mọi hoạt động trong ngày. Thân giày bằng vải lưới thoáng khí cho cảm giác thoải mái dài lâu và lớp đệm đế giữa mềm mại nâng đỡ từng bước chân. Họa tiết 3 Sọc không đường may thể hiện niềm tự hào adidas.",
+    "Price": 5000000,
+    "PictureUrl": "images/products/adidas5.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Adidas TENNIS Grand Court Nam Màu trắng F36392",
+    "Description": "Phong cách thể thao và đa năng. Hãy xỏ chân vào đôi giày chạy này để vượt qua mọi hoạt động trong ngày. Thân giày bằng vải lưới thoáng khí cho cảm giác thoải mái dài lâu và lớp đệm đế giữa mềm mại nâng đỡ từng bước chân. Họa tiết 3 Sọc không đường may thể hiện niềm tự hào adidas.",
+    "Price": 1800000,
+    "PictureUrl": "images/products/adidas6.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Adidas ORIGINALS NMD_R1 Mando Nam Màu đen GZ2737",
+    "Description": "Phong cách thể thao và đa năng. Hãy xỏ chân vào đôi giày chạy này để vượt qua mọi hoạt động trong ngày. Thân giày bằng vải lưới thoáng khí cho cảm giác thoải mái dài lâu và lớp đệm đế giữa mềm mại nâng đỡ từng bước chân. Họa tiết 3 Sọc không đường may thể hiện niềm tự hào adidas.",
+    "Price": 3400000,
+    "PictureUrl": "images/products/adidas7.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Adidas RUNNING Pulseboost HD Nam Màu xanh dương EG9967",
+    "Description": "Phong cách thể thao và đa năng. Hãy xỏ chân vào đôi giày chạy này để vượt qua mọi hoạt động trong ngày. Thân giày bằng vải lưới thoáng khí cho cảm giác thoải mái dài lâu và lớp đệm đế giữa mềm mại nâng đỡ từng bước chân. Họa tiết 3 Sọc không đường may thể hiện niềm tự hào adidas.",
+    "Price": 3500000,
+    "PictureUrl": "images/products/adidas8.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Converse Chuck Taylor All Star Lift Festival LowTop",
+    "Description": "BST Converse Archive Print được cho ra mắt gồm các thiết kế trẻ trung sử dụng những mẫu họa tiết di sản, cổ điển, đại diện cho sự cá tính và tinh thần tuổi trẻ bất diệt.",
+    "Price": 1700000,
+    "PictureUrl": "images/products/cv2.png",
+    "ProductTypeId": 3,
     "ProductBrandId": 5
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 2
+    "Name": "Converse Chuck Taylor All Star Lift Festival Hi Top",
+    "Description": "BST Converse Archive Print được cho ra mắt gồm các thiết kế trẻ trung sử dụng những mẫu họa tiết di sản, cổ điển, đại diện cho sự cá tính và tinh thần tuổi trẻ bất diệt.",
+    "Price": 1800000,
+    "PictureUrl": "images/products/cv1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
   },
   {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Name": "Converse Chuck Taylor All Star Lift Low Top",
+    "Description": "BST Converse Archive Print được cho ra mắt gồm các thiết kế trẻ trung sử dụng những mẫu họa tiết di sản, cổ điển, đại diện cho sự cá tính và tinh thần tuổi trẻ bất diệt.",
+    "Price": 1700000,
+    "PictureUrl": "images/products/cv3.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
   },
   {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Name": "Converse Chuck 70 Archive Paint Splatte",
+    "Description": "BST Converse Archive Print được cho ra mắt gồm các thiết kế trẻ trung sử dụng những mẫu họa tiết di sản, cổ điển, đại diện cho sự cá tính và tinh thần tuổi trẻ bất diệt.",
+    "Price": 2000000,
+    "PictureUrl": "images/products/cv4.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
   },
   {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
+    "Name": "Converse Chuck 70 My Story",
+    "Description": "BST Converse Archive Print được cho ra mắt gồm các thiết kế trẻ trung sử dụng những mẫu họa tiết di sản, cổ điển, đại diện cho sự cá tính và tinh thần tuổi trẻ bất diệt.",
+    "Price": 1900000,
+    "PictureUrl": "images/products/cv5.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
   },
   {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
+    "Name": "New Balance CRT 300 Beige Navy",
+    "Description": "Không đầu tư nhiều vào quảng cáo – marketing như Nike hay Adidas, nhưng những đôi giày New Balance vẫn được nhiều người biết đến nhờ chiến lược đặt giá trị làm trọng tâm, nâng cao chất lượng và trải nghiệm sau khi mang.",
+    "Price": 1290000,
+    "PictureUrl": "images/products/nb1.png",
     "ProductTypeId": 3,
     "ProductBrandId": 6
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
+    "Name": "New Balance 574 Grey Blue",
+    "Description": "Không đầu tư nhiều vào quảng cáo – marketing như Nike hay Adidas, nhưng những đôi giày New Balance vẫn được nhiều người biết đến nhờ chiến lược đặt giá trị làm trọng tâm, nâng cao chất lượng và trải nghiệm sau khi mang.",
+    "Price": 1290000,
+    "PictureUrl": "images/products/nb2.png",
     "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "New Balance 574 White Gum",
+    "Description": "Không đầu tư nhiều vào quảng cáo – marketing như Nike hay Adidas, nhưng những đôi giày New Balance vẫn được nhiều người biết đến nhờ chiến lược đặt giá trị làm trọng tâm, nâng cao chất lượng và trải nghiệm sau khi mang.",
+    "Price": 1290000,
+    "PictureUrl": "images/products/nb3.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "New Balance 574 Grey",
+    "Description": "Không đầu tư nhiều vào quảng cáo – marketing như Nike hay Adidas, nhưng những đôi giày New Balance vẫn được nhiều người biết đến nhờ chiến lược đặt giá trị làm trọng tâm, nâng cao chất lượng và trải nghiệm sau khi mang.",
+    "Price": 1290000,
+    "PictureUrl": "images/products/nb4.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "New Balance CRT 300 Beige",
+    "Description": "Không đầu tư nhiều vào quảng cáo – marketing như Nike hay Adidas, nhưng những đôi giày New Balance vẫn được nhiều người biết đến nhờ chiến lược đặt giá trị làm trọng tâm, nâng cao chất lượng và trải nghiệm sau khi mang.",
+    "Price": 1250000,
+    "PictureUrl": "images/products/nb5.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+
+  
+  {
+    "Name": "Adidas Duramo Slide Navy",
+    "Description": "Chưa có mô tả.",
+    "Price": 790000,
+    "PictureUrl": "images/products/depadd1.png",
+    "ProductTypeId": 1,
     "ProductBrandId": 2
   },
   {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
+    "Name": "Adilette Comfort Big Logo Adidas Blue",
+    "Description": "Chưa có mô tả.",
+    "Price": 225000,
+    "PictureUrl": "images/products/depadd2.png",
+    "ProductTypeId": 1,
     "ProductBrandId": 2
   },
   {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
+    "Name": "Adidas Adilette Lite Red Biglogo",
+    "Description": "Chưa có mô tả.",
+    "Price": 500000,
+    "PictureUrl": "images/products/depadd3.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Vans Slide Checkerboard MultiColor",
+    "Description": "Chưa có mô tả.",
+    "Price": 600000,
+    "PictureUrl": "images/products/depvans1.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Vans Slide Checkerboard",
+    "Description": "Chưa có mô tả.",
+    "Price": 600000,
+    "PictureUrl": "images/products/depvans2.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": " Benassi JDI Chance Swoosh White",
+    "Description": "Chưa có mô tả.",
+    "Price": 790000,
+    "PictureUrl": "images/products/depnike1.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Sandals Nike WMNS Tanjun Pink",
+    "Description": "Chưa có mô tả.",
+    "Price": 500000,
+    "PictureUrl": "images/products/depnike2.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Benassi JDI Print Orange",
+    "Description": "Chưa có mô tả.",
+    "Price": 500000,
+    "PictureUrl": "images/products/depnike3.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Crossbody Bag Air Jordan",
+    "Description": "Chưa có mô tả.",
+    "Price": 1190000,
+    "PictureUrl": "images/products/tuinike.png",
+    "ProductTypeId": 2,
     "ProductBrandId": 1
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "Name": "Back Pack Adidas W Nylon",
+    "Description": "Chưa có mô tả.",
+    "Price": 500000,
+    "PictureUrl": "images/products/tuiadd1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Back Pack Adidas Leather Black",
+    "Description": "Chưa có mô tả.",
+    "Price": 990000,
+    "PictureUrl": "images/products/tuiadd2.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
   }
 ]
