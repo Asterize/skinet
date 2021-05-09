@@ -16,8 +16,8 @@
       <div *ngIf="(basket$ | async) as basket" class="cart-no">{{basket.items.length}}</div>
     </a>
     <ng-container *ngIf="(currentUser$ | async) === null">
-      <a routerLink="/account/login" class="btn btn-outline-secondary mr-2" href="#">Đăng nhập</a>
-      <a routerLink="/account/register" class="btn btn-outline-secondary mr-3" href="#">Đăng Kí</a>  
+      <a routerLink="/account/login" class="btn btn-outline-secondary mr-2">Đăng nhập</a>
+      <a routerLink="/account/register" class="btn btn-outline-secondary mr-3">Đăng Kí</a>  
     </ng-container>
 
     <ng-container *ngIf="(currentUser$ | async) as user">
