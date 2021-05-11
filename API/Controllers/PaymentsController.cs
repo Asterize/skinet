@@ -14,7 +14,7 @@ namespace API.Controllers
     public class PaymentsController : BaseApiController
     {
         private readonly IPaymentService _paymentService;
-        private const string WhSecret = "";
+        private const string WhSecret = "whsec_ZVqfXlgRcBupXk8b44WFu1zl7LtE6gNl";
         private readonly ILogger<IPaymentService> _logger;
         public PaymentsController(IPaymentService paymentService, ILogger<IPaymentService> logger)
         {
@@ -46,21 +46,26 @@ namespace API.Controllers
             switch (stripeEvent.Type)
             {
                 case "payment_intent.succeeded":
+                {
                     intent = (PaymentIntent) stripeEvent.Data.Object;
                     _logger.LogInformation("Thanh toán thành công: ", intent.Id);
                     // update order status: Success
                     order = await _paymentService.UpdateOrderPaymentSucceeded(intent.Id);
+                    
                     _logger.LogInformation("Đơn hàng thanh toán thành công: ", order.Id);
                     break;
+                }
+                    
                 case "payment_intent.payment_failed":
+                {
                     intent = (PaymentIntent) stripeEvent.Data.Object;
                     _logger.LogInformation("Thanh toán thất bại: ", intent.Id);
                     // update order status: Failure
                     order = await _paymentService.UpdateOrderPaymentFailed(intent.Id);
+
                     _logger.LogInformation("Đơn hàng thanh toán thất bại: ", order.Id);
                     break;
-                default:
-                    break;
+                }
             }
             
             return new EmptyResult();

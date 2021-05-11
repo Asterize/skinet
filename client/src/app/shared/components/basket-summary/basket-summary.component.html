@@ -3,19 +3,19 @@
         <table class="table">
             <thead>
                 <tr class="table-primary">
-                    <th class="border-0 " scope="col">
-                        <div class="py-2 pl-2 text-uppercase">Sản phẩm</div>
+                    <th class="border-0 align-middle col-6" scope="col">
+                        <div class="py-2 pl-2 text-uppercase align-top">Sản phẩm</div>
                     </th>
-                    <th class="border-0 " scope="col">
+                    <th class="border-0 align-middle" scope="col">
                         <div class="py-2 text-center text-uppercase">Giá</div>
                     </th>
-                    <th class="border-0 " scope="col">
+                    <th class="border-0 align-middle" scope="col">
                         <div class="py-2 text-center text-uppercase">Số lượng</div>
                     </th>
-                    <th class="border-0 " scope="col">
+                    <th class="border-0 align-middle" scope="col">
                         <div class="py-2 text-center text-uppercase">Tổng giá</div>
                     </th>
-                    <th *ngIf="isBasket" class="border-0" scope="col">
+                    <th *ngIf="isBasket" class="border-0 align-middle" scope="col">
                         <div class="py-2 text-center text-uppercase">Loại trừ</div>
                     </th>
                 </tr>
@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </th>
-                    <td class="align-middle text-center"><strong>{{item.price}}</strong></td>
+                    <td class="align-middle text-center"><strong>{{item.price | currency:"VND":"₫"}}</strong></td>
                     <td class="align-middle">
                         <div class="d-flex align-items-center justify-content-center" >
                             <i *ngIf="isBasket" (click)='decrementItemQuantity(item)' class="fa fa-minus-circle text-warning mr-2"
@@ -49,7 +49,7 @@
                         </div>
                     </td>
                     <td class="align-middle text-center">
-                        <strong>{{item.price * item.quantity}}</strong>
+                        <strong>{{item.price * item.quantity | currency:"VND":"₫"}}</strong>
                     </td>
                     <td class="align-middle text-center">
                         <a class="text-danger">

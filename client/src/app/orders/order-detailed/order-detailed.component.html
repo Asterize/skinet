@@ -6,17 +6,17 @@
                     <table class="table">
                         <thead>
                             <tr class="table-primary">
-                                <th scope="col" class="border-0 ">
-                                    <div class="p-1 text-uppercase">Product</div>
+                                <th scope="col" class="border-0 align-middle">
+                                    <div class="p-1 text-uppercase">Sản phẩm</div>
                                 </th>
-                                <th scope="col" class="border-0">
-                                    <div class="py-1 text-uppercase">Price</div>
+                                <th scope="col" class="border-0 align-middle">
+                                    <div class="py-1 text-uppercase">Giá</div>
                                 </th>
-                                <th scope="col" class="border-0">
-                                    <div class="py-1 text-uppercase">Quantity</div>
+                                <th scope="col" class="border-0 align-middle">
+                                    <div class="py-1 text-uppercase">Số lượng</div>
                                 </th>
-                                <th scope="col" class="border-0 ">
-                                    <div class="py-1 text-uppercase">Total</div>
+                                <th scope="col" class="border-0 align-middle">
+                                    <div class="py-1 text-uppercase">Tổng cộng</div>
                                 </th>
                             </tr>
                         </thead>
@@ -33,11 +33,11 @@
                                         </div>
                                     </div>
                                 </th>
-                                <td class="align-middle"><strong>{{item.price | currency}}</strong></td>
+                                <td class="align-middle"><strong>{{item.price | currency:"VND":"₫"}}</strong></td>
                                 <td class="align-middle text-center">
                                     <span class="font-weight-bold px-2">{{item.quantity}}</span>
                                 </td>
-                                <td class="align-middle"><strong>{{item.price * item.quantity | currency}}</strong></td>
+                                <td class="align-middle"><strong>{{item.price * item.quantity | currency:"VND":"₫"}}</strong></td>
                             </tr>
                         </tbody>
                     </table>
@@ -45,20 +45,20 @@
             </div>
         </div>
         <div class="col-4">
-            <div class="bg-primary text-white px-4 py-3 text-uppercase font-weight-bold ">Order summary</div>
+            <div class="bg-primary text-white px-4 py-3 text-uppercase font-weight-bold ">Tóm tắt Đơn đặt hàng</div>
             <div class="p-4">
                 <ul class="list-unstyled mb-1">
                     <li class="d-flex justify-content-between py-3 border-bottom">
-                        <strong class="text-muted">Order subtotal</strong>
-                        <strong>{{order.subtotal | currency}}</strong>
+                        <strong class="text-muted">Tổng giá đơn đặt hàng</strong>
+                        <strong>{{order.subtotal | currency:"VND":"₫"}}</strong>
                     </li>
                     <li class="d-flex justify-content-between py-3 border-bottom">
-                        <strong class="text-muted">Shipping and handling</strong>
-                        <strong>{{order.shippingPrice | currency}}</strong>
+                        <strong class="text-muted">Phí giao hàng</strong>
+                        <strong>{{order.shippingPrice | currency:"VND":"₫"}}</strong>
                     </li>
                     <li class="d-flex justify-content-between py-3 border-bottom">
-                        <strong class="text-muted">Total</strong>
-                        <strong>{{order.total | currency}}</strong>
+                        <strong class="text-muted">Tổng cộng</strong>
+                        <strong>{{order.total | currency:"VND":"₫"}}</strong>
                     </li>
                 </ul>
             </div>

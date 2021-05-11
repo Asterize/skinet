@@ -24,7 +24,8 @@ namespace Infrastructure.Identity
                         District = "quan 8",
                         City = "TP Ho Chi Minh",
                         Zipcode = "72000"
-                    }
+                    },
+                    Role = "Admin"
                 };
 
                 await userManager.CreateAsync(user,"Pa$$w0rd");

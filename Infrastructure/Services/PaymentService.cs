@@ -59,8 +59,8 @@ namespace Infrastructure.Services
             {
                 var options = new PaymentIntentCreateOptions
                 {
-                    Amount = (long) basket.Items.Sum(i => i.Quantity * (i.Price * 100)) + (long) 
-                    shippingPrice * 100,
+                    Amount = (long) basket.Items.Sum(i => i.Quantity * (i.Price * 1)) + (long) 
+                    shippingPrice * 1,
                     Currency = "vnd",
                     PaymentMethodTypes = new List<string> {"card"}
                 };
@@ -72,8 +72,8 @@ namespace Infrastructure.Services
             {
                 var options = new PaymentIntentUpdateOptions
                 {
-                    Amount = (long) basket.Items.Sum(i => i.Quantity * (i.Price * 100)) + (long) 
-                    shippingPrice * 100,
+                    Amount = (long) basket.Items.Sum(i => i.Quantity * (i.Price * 1)) + (long) 
+                    shippingPrice * 1,
                 };
                 await service.UpdateAsync(basket.PaymentIntentId, options);
             }
@@ -108,7 +108,7 @@ namespace Infrastructure.Services
 
             await _unitOfWork.Complete();
 
-            return null;
+            return order;
         }
     }
 }

@@ -15,7 +15,7 @@
         <a routerLink="/shop/{{product.id}}">
             <h6 class="text-uppercase alternate-font">{{product.name}}</h6>
         </a>
-        <span class="mb-2">{{product.price | currency}}</span>
+        <span class="mb-2">{{product.price | currency: "VND" : "₫" }}</span>
 
         <!-- <div class="btn-group mt-auto">
             

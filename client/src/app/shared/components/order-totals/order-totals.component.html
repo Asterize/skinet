@@ -6,15 +6,15 @@
     <ul class="list-unstyled mb-4" *ngIf="(basketTotal$ | async) as totals">
         <li class="d-flex justify-content-between py-3 border-bottom">
             <strong class="text-muted">Tổng giá đơn đặt hàng</strong>
-            <strong>{{totals.subtotal}}</strong>
+            <strong>{{totals.subtotal | currency:"VND":"₫"}}</strong>
         </li>
         <li class="d-flex justify-content-between py-3 border-bottom">
             <strong class="text-muted">Phí giao hàng</strong>
-            <strong>{{totals.shipping}}</strong>
+            <strong>{{totals.shipping | currency:"VND":"₫"}}</strong>
         </li>
         <li class="d-flex justify-content-between py-3 border-bottom">
             <strong class="text-muted">Tổng cộng</strong>
-            <strong>{{totals.total}}</strong>
+            <strong>{{totals.total | currency:"VND":"₫"}}</strong>
         </li>
     </ul>
 </div>

@@ -26,6 +26,7 @@ namespace Infrastructure.Services
             {
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
                 new Claim(JwtRegisteredClaimNames.GivenName, user.DisplayName),
+                new Claim(ClaimTypes.Role, user.Role),
             };
 
             var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);

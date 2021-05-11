@@ -1,29 +1,29 @@
 [
   {
     "Id": 1,
-    "ShortName": "UPS1",
-    "Description": "Fastest delivery time",
+    "ShortName": "VNT1",
+    "Description": "Nhận hàng từ 1-2 ngày",
     "DeliveryTime": "1-2 Days",
-    "Price": 10
+    "Price": 100000
   },
   {
     "Id": 2,
-    "ShortName": "UPS2",
-    "Description": "Get it within 5 days",
+    "ShortName": "VNT2",
+    "Description": "Nhận hàng từ 2-5 ngày",
     "DeliveryTime": "2-5 Days",
-    "Price": 5
+    "Price": 60000
   },
   {
     "Id": 3,
-    "ShortName": "UPS3",
-    "Description": "Slower but cheap",
+    "ShortName": "VNT3",
+    "Description": "Nhận hàng từ 5-10 ngày",
     "DeliveryTime": "5-10 Days",
-    "Price": 2
+    "Price": 30000
   },
   {
     "Id": 4,
     "ShortName": "FREE",
-    "Description": "Free! You get what you pay for",
+    "Description": "Nhận hàng từ 1-2 tuần",
     "DeliveryTime": "1-2 Weeks",
     "Price": 0
   }
