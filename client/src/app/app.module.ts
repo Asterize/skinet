@@ -10,10 +10,15 @@ import { ErrorInterceptor } from './core/interceptors/error.interceptor';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { LoadingInterceptor } from './core/interceptors/loading.interceptors';
 import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
+import { IntroductionComponent } from './introduction/introduction.component';
+import { ContactComponent } from './contact/contact.component';
+// import { FooterComponent } from './core/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    IntroductionComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,6 +27,7 @@ import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
     HttpClientModule,
     CoreModule,
     HomeModule,
+    // FooterComponent,
     NgxSpinnerModule
   ],
   providers: [

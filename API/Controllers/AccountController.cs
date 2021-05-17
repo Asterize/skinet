@@ -28,14 +28,14 @@ namespace API.Controllers
             _userManager = userManager;
         }
 
-        [Authorize(Roles = Role.Admin)]
-        [HttpGet]
-        public IActionResult GetAllUsers()
-        {
-            var users =  _userManager.Users;
+        // [Authorize(Roles = Role.Admin)]
+        // [HttpGet]
+        // public IActionResult GetAllUsers()
+        // {
+        //     var users =  _userManager.Users;
 
-            return Ok(users);
-        }
+        //     return Ok(users);
+        // }
 
         [Authorize]
         [HttpGet]
@@ -113,7 +113,7 @@ namespace API.Controllers
                 DisplayName = registerDto.DisplayName,
                 Email = registerDto.Email,
                 UserName = registerDto.Email,
-                Role = Role.User
+                // Role = Role.User
             };
 
             var result = await _userManager.CreateAsync(user, registerDto.Password);

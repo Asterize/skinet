@@ -19,13 +19,13 @@ namespace Infrastructure.Identity
                     Address = new Address
                     {
                         Name = "Tran Thuan Tien",
-                        Street = "13 Le Kim Sa",
+                        Street = "13 Tung Thien Vuong",
                         Ward = "phuong 6",
                         District = "quan 8",
                         City = "TP Ho Chi Minh",
                         Zipcode = "72000"
                     },
-                    Role = "Admin"
+                    // Role = "Admin"
                 };
 
                 await userManager.CreateAsync(user,"Pa$$w0rd");
